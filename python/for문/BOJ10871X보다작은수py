@@ -1,0 +1,10 @@
+N,X = input().split()
+N = int(N)
+X = int(X)
+B = input().split()
+
+list = []
+for i in range(N):
+    if(int(B[i])<X):
+        print(B[i], end=' ')
+
