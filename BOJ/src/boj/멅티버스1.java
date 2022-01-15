@@ -1,6 +1,7 @@
+package boj;
 import java.util.Scanner;
 
-public class Main {
+public class 멅티버스1 {
 
     static int M, N, Ans;
     static int[][] arr;

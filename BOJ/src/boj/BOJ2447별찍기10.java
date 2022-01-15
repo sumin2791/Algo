@@ -1,9 +1,9 @@
-package BOJ;
+package boj;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BOJ11729하노이탑이동순서 {
+public class BOJ2447별찍기10 {
 
 	static char[][] arr;
 	static int N;

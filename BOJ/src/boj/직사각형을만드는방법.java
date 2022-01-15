@@ -1,6 +1,7 @@
+package boj;
 import java.util.Scanner;
 
-public class Main {
+public class 직사각형을만드는방법 {
 
     static int N, cnt, sqrt;
 

@@ -1,10 +1,11 @@
+package boj;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class 토마토 {
     static int ans = 0;
     static int[] dr = { 0, 0, 1, -1 };
     static int[] dc = { 1, -1, 0, 0 };

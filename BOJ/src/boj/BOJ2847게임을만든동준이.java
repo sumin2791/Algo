@@ -1,4 +1,4 @@
-package BOJ;
+package boj;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
