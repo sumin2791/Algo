@@ -1,4 +1,4 @@
-package boj;
+package baekjoon;
 import java.util.Scanner;
 
 public class 영식이와친구들 {

@@ -1,4 +1,4 @@
-package boj;
+package baekjoon;
 import java.util.Scanner;
 
 public class 직사각형을만드는방법 {

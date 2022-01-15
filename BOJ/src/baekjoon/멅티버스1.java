@@ -1,4 +1,4 @@
-package boj;
+package baekjoon;
 import java.util.Scanner;
 
 public class 멅티버스1 {
