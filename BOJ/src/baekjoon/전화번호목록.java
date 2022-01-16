@@ -20,6 +20,7 @@ public class 전화번호목록 {
 					arr[j] = sc.next();
 				}
 				Arrays.sort(arr);
+
 				String ans = isSuffix(arr);
 				System.out.println(ans);
 			}
@@ -28,9 +29,8 @@ public class 전화번호목록 {
 	}
 
 	private static String isSuffix(String[] arr) {
-		for (int i = 0; i < arr.length-2; i++) {
-			
-			if(arr[i].length() != arr[i+1].length() && arr[i+1].substring(0,arr[i].length()).equals(arr[i])){
+		for (int i = 0; i < arr.length-1; i++) {
+			if(arr[i].length() < arr[i+1].length() && arr[i+1].substring(0,arr[i].length()).equals(arr[i])){
 				return "NO";
 			}
 		}
